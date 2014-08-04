@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="verify" method="post">
+	${msg }
+	<form action="verifyUser" method="post">
 		<table>
 			<tr>
 				<td>EmailId</td>

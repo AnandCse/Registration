@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-${msg}
+	${msg }
 	<form action="addUser">
 		<table align="center">
 			<tr>
