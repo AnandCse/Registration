@@ -12,9 +12,20 @@
 		<servlet-name>log</servlet-name>
 		<servlet-class>com.user.controller.UserController</servlet-class>
 	</servlet>
-	
+
 	<servlet-mapping>
-	      <servlet-name>log</servlet-name>
-	      <url-pattern>/logIn</url-pattern>
+		<servlet-name>log</servlet-name>
+		<url-pattern>/logIn</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>authenticate</servlet-name>
+		<servlet-class>com.user.controller.UserController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>authenticate</servlet-name>
+		<url-pattern>/verify</url-pattern>
+	</servlet-mapping>
+
 </web-app>
